@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_ModifyExo">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+
+
+            <EditText
+                android:id="@+id/editTextAddName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name of the exercise"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/editTextAddType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="type of the exercise"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/editTextAddRep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="nb of repetition"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/editTextAddWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="poids ? "
+                android:inputType="textPersonName"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sauvegarder" />
+
+            <Button
+                android:id="@+id/btnDel"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:text="Supprimer" />
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>
